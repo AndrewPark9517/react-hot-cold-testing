@@ -3,7 +3,7 @@ import {shallow, mount} from 'enzyme';
 
 import AuralStatus from './aural-status.js';
 
-Describe('<AuralStatus />', function() {
+describe('<AuralStatus />', function() {
     it('Renders without crashing', function() {
         shallow(<AuralStatus />);
     });
