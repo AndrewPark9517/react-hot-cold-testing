@@ -8,6 +8,11 @@ describe('<Feedback />', function() {
         shallow(<Feedback />);
     });
 
-    
+    it('Contains the feedback element', function() {
+        const foo = "foo";
+        const wrapper = shallow(<Feedback feedback={foo}/>);
+        const text = "foo Guess again!";
+        expect(wrapper.text()).toEqual(text);
+    });
 
 });

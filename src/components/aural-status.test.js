@@ -11,9 +11,9 @@ describe('<AuralStatus />', function() {
 
     it('Should have the screenreader component', function() {
         const wrapper = shallow(<AuralStatus />);
-        expect(wrapper.hasClass('visuallyhidden')).to.equal(true);
+        expect(wrapper.hasClass('visuallyhidden')).toEqual(true);
     });
 
-    
+
 
 });

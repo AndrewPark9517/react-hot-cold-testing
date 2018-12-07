@@ -5,7 +5,7 @@ import './guess-count.css';
 export default function GuessCount(props) {
     const isPlural = props.guessCount !== 1;
     const guessNoun = isPlural ? 'guesses' : 'guess';
-
+    console.log('guessCount: ', props.guessCount);
     return (
         <h2 id="guessCount">
             You've made <span id="count">{props.guessCount}</span> {guessNoun}!
