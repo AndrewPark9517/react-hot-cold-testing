@@ -5,3 +5,10 @@ cache:
   - node_modules
 env:
 - CI=true
+deploy:
+  provider: heroku
+  api_key:
+    secure: qajA2sOpmkcwOK9VBj3SdlQJ1xIM+ATJ5D5sGiDe0PKsgGrjqQQxptWicpZxDIq5Flxkz4+Z/naBUPMklmaGVofHgnrgIF396SN8E6gcGLeoAMgQIi5jnCzh6cQSdGUvoxb6Q4qJriR0tlpIt1yCvb+HU2TseaKtNEj4eYliSvqDa10Suy5qTWWeY7NqYOmSWmnvaq6DovDAGlvTKsjr+5haSgRozl5azum7MkTsyu6R0vtGwii9uKXT8d5zEeqCai+MPtfApuzbAtVanfamKjhNexg8+IRZvQTLWA6/aBVEt/pmUQVeVoDuSyIXNC7+s5UPfIE/APOdi500zC7LaTi18zjTFG3CMYTA8BsI8yjfLEFz7hzdtyGktIbU+rVixTd5ckWJ4Sb//QupSXYFb4GuZTFJDihGi+THkCh+pHV54MVbcHKLiOooMonsP3myq8ZmDdUjEfc+7yhQmDAFxse9mbGzTAUI+3axpvnh8lVktm0At6K0YR+dDEeR+U7QvnCxIujrq6XEtC6gIpnqtU3gQySSY/oAw1U0WZVJhcLzTr3tDCwfU9tFXCGphy4M5sjtru9XBHGDStFZ55+LdSx4igWYZn3AiN87/CLpmqRyVdVLWFzmqcwh+gO0dZ/R5dqVY3cTOa2Luy8YjIrxf6IUp+iKQcO2ecRcUwfyeyY=
+  app: mighty-cove-36390
+  on:
+    repo: AndrewPark9517/react-hot-cold-testing
